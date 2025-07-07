@@ -11,9 +11,7 @@ const routes = {
 
 export function router() {
   let path = window.location.pathname;
-
-
-  console.log(path)
+  
   if (path.endsWith('index.html')) {
     path = "/" 
     console.log("entra")
